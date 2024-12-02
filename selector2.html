@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Document</title>
+<style>
+/* Decendent selector*/
+.main p{
+text-align: justify;
+padding: 20px;
+}
+/* child selector*/
+.main>p{
+background-color:green;
+color: white;
+}
+.first>p{
+background-color: purple;
+color: white;
+}
+/* sibling selector*/
+#p7~p{
+background-color: black;
+color: white;
+}
+/*Adjecent sibling selector. */
+#p10+p{
+background-color:orange;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<p id="p1">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p2">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p3">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<div class="first">
+<p id="4">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p5">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p6">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<div class="child">
+<p id="p7">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p8">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p9">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+</div>
+<p id="p10">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p11">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p12">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+</div>
+<div class="second">
+<p id="13">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p14">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p15">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<div class="child">
+<p id="p16">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p17">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p18">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+</div>
+<p id="p19">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p20">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+<p id="p21">Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex, et cconsectetur adipiscing elit. In a ligula aliquam, luctus sapien et, rhoncus urna. Etiam sit amet condimentum massa. Nullam quis maximus ex</p>
+</div>
+</div>
+</body>
+</html>

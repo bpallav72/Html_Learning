@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Document</title>
+<style>
+*{
+cursor: grab;
+}
+</style>
+</head>
+<body>
+<a href="https://www.google.com" target="_blank" title="Google Home Page">Google</a>
+<a href="https://www.facebook.com" target="_blank" title="Facebook Home Page">Facebook</a>
+<a href="https://www.gmail.com" target="_blank" title="Gmail Home Page">Gmail</a>
+<a href="https://www.youtube.com" target="_blank" title="Youtube Home Page">Youtube</a>
+<a href="https://www.twitter.com" target="_blank" title="Twitter Home Page">Twitter</a>
+<a href="https://www.flipkart.com" target="_blank" title="Flipkart Home Page">Flipkart</a>
+<a href="https://web.zepeto.me/en" target="_blank" title="Zepeto Home Page">Zepeto</a>
+
+</body>
+</html>
